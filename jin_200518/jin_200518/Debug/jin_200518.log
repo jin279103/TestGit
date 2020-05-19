@@ -1,0 +1,4 @@
+﻿  jin200518.c
+C:\Users\USER\source\repos\jin_200518\jin_200518\input.h(13,10): warning C4476: 'printf' : 서식 지정자에 알 수 없는 형식 필드 문자 '\xed'이(가) 있습니다.
+C:\Users\USER\source\repos\jin_200518\jin_200518\input.h(21,10): warning C4476: 'printf' : 서식 지정자에 알 수 없는 형식 필드 문자 '\xed'이(가) 있습니다.
+  jin_200518.vcxproj -> C:\Users\USER\source\repos\jin_200518\Debug\jin_200518.exe
