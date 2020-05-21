@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 
 void swap(int* pa, int* pb);
@@ -705,6 +707,7 @@ int main(void)
 	*********************************/
 
 	//example 14-7
+	/*********************************
 	int ary1[4] = { 1,2,3,4 };
 	int ary2[4] = { 11,12,13,14 };
 	int ary3[4] = { 21,22,23,24 };
@@ -721,6 +724,160 @@ int main(void)
 	}
 
 	return 0;
+	**********************************/
+
+	//example 15-1
+	/*********************************
+	int a = 10;
+	int* pi;
+	int** ppi;
+
+	pi = &a;
+	ppi = &pi;
+
+	printf("--------------------------------------------\n");
+	printf("변수    변수값    &연산     *연산     **연산\n");
+	printf("--------------------------------------------\n");
+	printf("  a%10d%10u\n", a, &a);
+	printf(" pi%10u%10u%10d\n", pi, &pi, *pi);
+	printf("ppi%10u%10u%10u%10u\n", ppi, &ppi, *ppi, **ppi);
+	printf("--------------------------------------------\n");
+
+	return 0;
+	***********************************/
+
+	//example 18-1
+	/**********************************
+	FILE* fp;
+
+	fp = fopen("a.txt", "r");
+	if (fp == NULL)
+	{
+		printf("파일이 열리지 않았습니다.\n");
+		return 1;
+	}
+
+	printf("파일이 열렸습니다.\n");
+	fclose(fp);
+
+	return 0;
+	************************************/
+
+	//example 18-2
+	/***********************************
+	FILE* fp;
+	int ch;
+
+	fp = fopen("a.txt", "r");
+	if (fp == NULL)
+	{
+		printf("파일이 열리지 않았습니다.\n");
+		return 1;
+	}
+	while (1)
+	{
+		ch = fgetc(fp);
+		if (ch == EOF)
+		{
+			break;
+		}
+		putchar(ch);
+	}
+	fclose(fp);
+
+	return 0;
+	*************************************/
+
+	//example 18-3
+	/***********************************
+	FILE* fp;
+	char str[] = "banana";
+	int i;
+
+	fp = fopen("b.txt", "w");
+	if (fp == NULL)
+	{
+		printf("파일을 만들지 못했습니다.\n");
+		return 0;
+	}
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		fputc(str[i], fp);
+		i++;
+	}
+	fputc('\n', fp);
+	fclose(fp);
+
+	return 0;
+	************************************/
+
+	//example 18-4
+	/***********************************
+	int ch;
+
+	while (1)
+	{
+		ch = getchar();
+		if (ch == EOF)
+		{
+			break;
+		}
+		putchar(ch);
+	}
+
+	return 0;
+	***********************************/
+
+	//example 18-5
+	/*********************************
+	int ch;
+
+	while (1)
+	{
+		ch = fgetc(stdin);
+		if (ch == EOF)
+		{
+			break;
+		}
+		fputc(ch, stdout);
+	}
+	return 0;
+	*********************************/
+
+	//example 18-6;
+	/********************************
+	FILE* fp;
+	int ary[10] = { 13,10,13,13,10,26,13,10,13,10 };
+	int i, res;
+
+	fp = fopen("a.txt", "wb");
+	for (i = 0; i < 10; i++);
+	{
+		fputc(ary[i], fp);
+	}
+	fclose(fp);
+
+	fp = fopen("a.txt", "rt");
+	while (1)
+	{
+		res = fgetc(fp);
+		if (res == EOF) break;
+		printf("%4d", res);
+	}
+	fclose(fp);
+
+	return 0;
+	*********************************/
+
+	FILE* rfp = fopen("C:\\Users\\USER\\input.txt", "r");
+	FILE* wfp = fopen("C:\\Users\\USER\\output.txt", "w");
+	int a, b;
+	char c[100], d[100];
+
+	fscanf(rfp, "%d %d %s %s", &a, &b, c, d);
+	fprintf(wfp, "%d %d %s %s\n", a, b, c, d);
 }
 
 void swap(int* pa, int* pb)
@@ -831,3 +988,4 @@ int* sum(int a, int b)
 
 	return &res;
 }
+
