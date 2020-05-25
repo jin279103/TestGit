@@ -18,6 +18,6 @@ typedef struct StudentData
 
 }StudentData;
 
-void readfile(void);
+void read_file(StudentData *list);
 
 #endif

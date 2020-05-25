@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
     <ClCompile Include="read_file.c" />
+    <ClCompile Include="search.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="jin.h" />
