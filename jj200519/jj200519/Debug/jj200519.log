@@ -1,3 +1,34 @@
 ﻿  main.c
-C:\Users\USER\source\repos\jj200519\jj200519\main.c(9,8): warning C4013: 'search'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  jj200519.vcxproj -> C:\Users\USER\source\repos\jj200519\Debug\jj200519.exe
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\main.c(9,8): warning C4013: 'search'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  read_file.c
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\read_file.c(14,11): warning C4098: 'read_file': 'void' 함수에서 값을 반환하고 있습니다.
+  search.c
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(24,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(24,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(24,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%15s'에 필요합니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(40,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(40,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(40,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%15s'에 필요합니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(45,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(45,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(45,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%15s'에 필요합니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(50,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(50,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(50,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%15s'에 필요합니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(55,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(55,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(55,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%15s'에 필요합니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(60,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(60,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(60,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%15s'에 필요합니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(65,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(65,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(65,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%15s'에 필요합니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(78,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(78,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(78,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(91,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(91,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+C:\Users\USER\Documents\GitHub\TestGit\jj200519\jj200519\search.c(91,13): message : 누락된 variadic 인수 7이(가) 서식 문자열 '%s'에 필요합니다.
+  코드를 생성하고 있습니다...
+  jj200519.vcxproj -> C:\Users\USER\Documents\GitHub\TestGit\jj200519\Debug\jj200519.exe
